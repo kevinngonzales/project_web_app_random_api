@@ -21,9 +21,6 @@ A Web Application that utilizes Open Trivia DB's API to retrieve a collection of
    
 7. (Ctrl + Click) on local server link to launch website
 
-(Ctrl + Click) on local 
-
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
