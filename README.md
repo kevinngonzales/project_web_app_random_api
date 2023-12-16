@@ -9,7 +9,7 @@ A Web Application that utilizes Open Trivia DB's API to retrieve a collection of
 
 ### Installation
 
-1. Clone repository with git clone https://github.com/kevinngonzales/project_classroom_average.git
+1. Clone repository "git clone https://github.com/kevinngonzales/project_web_app_random_api.git"
 
 2. Open with VS Code
 
