@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="public/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="public/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="public/favicon-16x16.png"
+    />
+    <link rel="manifest" href="public/site.webmanifest" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <p>Feel free to listen to some background music while you play!</p>
+
+    <audio id="backgroundMusic" controls>
+      <source src="./public/backgroundMusic.mp3" type="audio/mp3" />
+    </audio>
+
+    <audio id="rightSoundEffect">
+      <source src="./public/rightSoundEffect.wav" type="audio/wav" />
+    </audio>
+
+    <audio id="wrongSoundEffect">
+      <source src="./public/wrongSoundEffect.wav" type="audio/wav" />
+    </audio>
+
+    <h1>RANDOM TRIVIA</h1>
+
+    <img id="smileyFace" src="./public/android-chrome-512x512.png" />
+
+    <div id="questionContainer"></div>
+    <p></p>
+    <p></p>
+    <p></p>
+    <button id="reloadWebpageButton">New Questions</button>
+
+    <div id="poweredBy">
+      Powered by
+      <a href="https://opentdb.com/"> Open Trivia DB</a>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
