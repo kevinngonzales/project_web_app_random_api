@@ -2,7 +2,7 @@
 
 A Web Application that utilizes Open Trivia DB's API to retrieve a collection of Trivia Questions/Answers and displays the data as an interactive website.
 
-![Image Alt Text](/project_random_api/public/screenshot.png)
+![Image Alt Text](/public/screenshot.png)
 
 ## Prerequisites
 
